@@ -1,15 +1,21 @@
-# Smart Kanban Task Manager
+# 🚀 Smart Kanban Task Manager
 
-A React-based Kanban board that helps users manage tasks across workflow stages.
+A modern Kanban board built using React that allows users to manage tasks visually across workflow stages.
 
 ## Features
-- Create tasks with description, deadline, and priority
+
+- Create tasks with title, description, deadline and priority
 - Drag and drop tasks between columns
 - Edit and delete tasks
+- Highlight overdue tasks
+- Task count per column
 - Persistent storage using LocalStorage
+- Modern UI with modal task form
 
 ## Tech Stack
+
 - React
+- Vite
 - JavaScript
 - CSS
 - @hello-pangea/dnd
@@ -23,3 +29,5 @@ A React-based Kanban board that helps users manage tasks across workflow stages.
 ![Tasks](screenshots/tasks.png.png)
 
 ![Drag](screenshots/drag.png.png)
+
+
